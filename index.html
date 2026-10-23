@@ -62,6 +62,7 @@
     .bgmi::after { background:var(--cyan); }
     .freefire::after { background:#ff8b4b; }
     .mlbb::after { background:var(--purple); }
+    .realcricket::after { background:#ffd166; }
     .card-top { display:flex; justify-content:space-between; align-items:center; gap:10px; position:relative; z-index:1; }
     .number { font-size:.75rem; color:var(--muted); font-weight:800; letter-spacing:.12em; }
     .game-symbol { width:52px; height:52px; border-radius:15px; display:grid; place-items:center; font-size:1.5rem; border:1px solid var(--line); background:rgba(255,255,255,.045); }
@@ -74,6 +75,7 @@
     .bgmi .game-symbol { color:var(--cyan); }
     .freefire .game-symbol { color:#ffad72; }
     .mlbb .game-symbol { color:var(--purple); }
+    .realcricket .game-symbol { color:#ffd166; }
     .info { display:flex; align-items:center; justify-content:space-between; gap:24px; padding:22px 24px; border:1px solid var(--line); border-radius:18px; background:rgba(255,255,255,.025); margin-bottom:54px; }
     .info strong { display:block; font-size:.95rem; margin-bottom:4px; }
     .info p { color:var(--muted); font-size:.85rem; margin:0; }
@@ -116,7 +118,7 @@
       <section aria-labelledby="events-title">
         <div class="section-head">
           <h2 id="events-title">Choose Your Event</h2>
-          <p class="section-note">03 tournaments · 01 arena</p>
+          <p class="section-note">04 tournaments · 01 arena</p>
         </div>
         <div class="games">
           <article class="game-card bgmi">
@@ -141,6 +143,14 @@
             <h3>Mobile Legends</h3>
             <p>Pick your hero, coordinate your team, and fight for control across the Land of Dawn.</p>
             <a class="action" href="https://docs.google.com/forms/d/e/1FAIpQLSdzqvIhQRNt8DlZ9sGn9gatdX72VauIVOEBCmQb3cZjMa_fQQ/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer" aria-label="Register for Mobile Legends: Bang Bang">Register now <span>↗</span></a>
+          </article>
+
+          <article class="game-card realcricket">
+            <div class="card-top"><span class="number">04 / SPORTS GAMING</span><div class="game-symbol" aria-hidden="true">🏏</div></div>
+            <div class="tag">Cricket Simulation</div>
+            <h3>Real Cricket</h3>
+            <p>Step onto the pitch, represent your side, and compete for cricket glory.</p>
+            <a class="action" href="https://docs.google.com/forms/d/e/1FAIpQLSd2ollOEyuNWQZU2ZzhyOahmB5qWQvrl5T9AiE_oS_MM-1vxQ/viewform?usp=header" target="_blank" rel="noopener noreferrer" aria-label="Register for Real Cricket">Register now <span>↗</span></a>
           </article>
         </div>
       </section>
